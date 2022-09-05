@@ -49,14 +49,14 @@
 
 Welcome to the _GitHub repository_ of my **TODO** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
 
-This site provides a form to search TODO. Users will find the following feature: **Search for TODO and see the repositories**. 
+This site provides a form to search TODOs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
+* [![React-Native][React-Native]][React-Native-url]
 * [![React][React.js]][React-url]
-* [![Typescript][Typescript]][Typescript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,22 +73,22 @@ To get a local copy up and running follow these simple example steps.
   ```
 
 ### Installation
+1. You need to install React Native by this guide: https://facebook.github.io/react-native/docs/getting-started.html
 
-1. Clone the repo
+2. Clone the repo
    ```sh
    git clone https://github.com/paulofelipebrito/todo-React-Native
    ```
-2. Install NPM packages
+3. Install NPM packages
    ```sh
-   yarn 
+   yarn install 
    ```
-3. Start the app with yarn
+4. Start the app with yarn
    ```sh
-     yarn start
+  react-native run-ios  // run the iOs simulater
+  react-native run-android // run on Android simulator
    ```
    
-4. Visit `http://localhost:3000/` on your browser
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP
@@ -146,13 +146,9 @@ Project Link: [https://github.com/paulofelipebrito/todo-React-Native](https://gi
 
 This project was developed with the following technologies:
 
-- ✔️ Typescript
-
-- ✔️ ReactJS
+- ✔️ React Native
   
 - ✔️ React Hooks
-
-- ✔️ CSS Modules
 
 <!-- ACKNOWLEDGMENTS
 ## Acknowledgments
@@ -188,8 +184,10 @@ Use this space to list resources you find helpful and would like to give credit 
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-Native]: https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [Typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [React-url]: https://reactjs.org/
+[React-Native-url]: https://reactnative.dev
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
