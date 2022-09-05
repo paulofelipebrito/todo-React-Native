@@ -85,8 +85,8 @@ To get a local copy up and running follow these simple example steps.
    ```
 4. Start the app with yarn
    ```sh
-  react-native run-ios  // run the iOs simulater
-  react-native run-android // run on Android simulator
+   react-native run-ios  // run the iOs simulater
+   react-native run-android // run on Android simulator
    ```
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
